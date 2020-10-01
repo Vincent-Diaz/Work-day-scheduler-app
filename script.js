@@ -1,6 +1,7 @@
 $(document).ready(function() {
     // display current day and time.
-    $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
+        $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
+    
 
 
     // Listen for save button clicks
@@ -47,6 +48,5 @@ $(document).ready(function() {
             }
         })
     }
-
     updateHour();
 })
